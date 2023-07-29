@@ -88,9 +88,6 @@
     0%{
         transform : translateY(-150px)
     }
-    50%{
-        transform : translateY(-50px)
-    }
     100%{
         transform : translateY(0px)
     }
@@ -101,9 +98,7 @@
     0%{
         transform : translateX(-150px)
     }
-    50%{
-        transform : translateX(-50px)
-    }
+
     100%{
         transform : translateX(0px)
     }
