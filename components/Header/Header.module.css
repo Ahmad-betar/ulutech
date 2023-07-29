@@ -1,0 +1,78 @@
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: aquamarine;
+  background-color: var(--main-color);
+  background: linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.3) 50%);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+.scrolled {
+  background-color: black;
+  /* background-color: var(--main-color); */
+  /* background: linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.3) 50%); */
+
+}
+.header .one {
+  height: 100%;
+}
+
+.header .one img {
+  height: auto;
+  width: 70%;
+}
+
+.header .menuButton{
+    display: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+.header .two {
+  height: 100%;
+}
+
+.header .two nav {
+  height: 100%;
+}
+
+.header .two nav ul {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .two nav ul li {
+  list-style: none;
+}
+
+.header .two nav ul li a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+.active {
+  color: yellow;
+}
+
+
+
+@media (max-width: 470px) {
+    .header .two{
+        display: none;
+    } 
+
+    .header .menuButton{
+        display: inline;
+    }
+} 
+

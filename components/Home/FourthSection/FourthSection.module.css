@@ -1,0 +1,108 @@
+
+
+.FourthSection{
+    padding: 4vw;
+    
+}
+
+.FourthSection .h3{
+    text-align: center;
+
+}
+
+.FourthSection .hr{
+    width: 80%;
+    text-align: center;
+    height: 1px;
+    background-color: var(--main-yellow);
+    border: none;
+}
+
+
+.FourthSection .team{
+    
+    scrollbar-color: var(--main-yellow) transparent;
+    
+    overflow: auto;
+    white-space: nowrap;
+    
+
+}   
+
+
+.FourthSection .team .person{
+
+    padding: 20px;
+    background-color: black;
+    margin: 20px 0 20px 20px;
+    border-radius: 10px;
+    width: 30%;
+
+    display: inline-block;
+    text-align: center;
+
+}
+
+
+.FourthSection .team .person .image{
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+
+
+}
+
+.FourthSection .team .person h4{
+    margin: 0;
+    margin-top: 5%;
+    font-size: 100%;
+
+}
+
+.FourthSection .team .person .p{
+    margin: 0;
+    margin-top: 5%;
+    font-size: 100%;
+
+}
+
+
+
+@media (max-width: 600px) {
+    .FourthSection .team .person h4{
+        font-size: 80%;
+
+        
+    }    
+    .FourthSection .team .person .p{
+        font-size: 60%;
+
+    }
+    .FourthSection .team .person{
+        padding: 10px;
+        width: 50%;
+    }
+
+
+} 
+
+@media (max-width: 400px) {
+    .FourthSection .team .person h4{
+        font-size: 50%;
+
+        
+    }    
+    .FourthSection .team .person .p{
+        font-size: 40%;
+
+    }
+    .FourthSection .team .person{
+        padding: 5px;
+        width: 50%;
+
+    }
+
+
+}
+
+
