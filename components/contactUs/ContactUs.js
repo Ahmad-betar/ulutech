@@ -32,19 +32,19 @@ const ContactUs = () => {
             <span>
               <Link href = 'tel:123-123-123'>
               <LocalPhoneIcon sx={{ color: "var(--main-yellow)" }} />
-              <p>+963 932263352</p>
+              <p>+963 938882624</p>
               </Link>
             </span>
             <span>
               <Link href = "mailto:test@gmail.com">
               <MailIcon sx={{ color: "var(--main-yellow)" }} />
-              <p>@testetsoijeoia</p>
+              <p>sadekBadwi1997@gmail.com</p>
               </Link>
             </span>
             <span>
               <Link href = 'https://goo.gl/maps/14eFnwmzPnYzvvpS9'>
               <LocationOnIcon sx={{ color: "var(--main-yellow)" }} />
-                <p>lsakfioewoifj</p>
+                <p>Syria - Aleppo - Al Furqan </p>
               </Link>
             </span>
           </div>
