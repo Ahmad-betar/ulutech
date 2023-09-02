@@ -6,6 +6,9 @@
   --test : linear-gradient(45deg, rgb(9, 11, 14) 0%, rgb(50, 82, 98) 100%);
   --font-color : rgb(233, 236, 240);
   --background : rgba(0, 0, 0, 0.71);
+  --swiper-theme-color : var(--main-yellow) !important;
+  --swiper-pagination-bullet-inactive-color : black !important;
+
 
 }
 
@@ -64,7 +67,9 @@ div
   }
 }  
 
-
+.swiper-pagination-bullet{
+  opacity: 1 !important;
+}
 
 /* 
 @media (prefers-color-scheme: dark) {

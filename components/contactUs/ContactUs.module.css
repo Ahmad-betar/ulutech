@@ -2,8 +2,6 @@
     background: url('/6.png');
     width: 100vw;
 
-    /* min-height: 60vh; */
-    /* height: 60vh; */
     background-size: contain;
     background-repeat: no-repeat;
     aspect-ratio: 33/9;

@@ -6,13 +6,7 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import ContactForm from "./ContactForm/ContactForm";
 import Link from "next/link";
 
-
 const ContactUs = () => {
-  
-
-
-
-
   return (
     <>
       <div className={classes.head}>
@@ -30,27 +24,27 @@ const ContactUs = () => {
 
           <div className={classes.links}>
             <span>
-              <Link href = 'tel:123-123-123'>
-              <LocalPhoneIcon sx={{ color: "var(--main-yellow)" }} />
-              <p>+963 938882624</p>
+              <Link href="tel:+963938882624">
+                <LocalPhoneIcon sx={{ color: "var(--main-yellow)" }} />
+                <p>+963 938882624</p>
               </Link>
             </span>
             <span>
-              <Link href = "mailto:test@gmail.com">
-              <MailIcon sx={{ color: "var(--main-yellow)" }} />
-              <p>sadekBadwi1997@gmail.com</p>
+              <Link href="mailto:sadekBadwi1997@gmail.com">
+                <MailIcon sx={{ color: "var(--main-yellow)" }} />
+                <p>sadekBadwi1997@gmail.com</p>
               </Link>
             </span>
             <span>
-              <Link href = 'https://goo.gl/maps/14eFnwmzPnYzvvpS9'>
-              <LocationOnIcon sx={{ color: "var(--main-yellow)" }} />
+              <Link href="https://goo.gl/maps/14eFnwmzPnYzvvpS9">
+                <LocationOnIcon sx={{ color: "var(--main-yellow)" }} />
                 <p>Syria - Aleppo - Al Furqan </p>
               </Link>
             </span>
           </div>
         </div>
         <div className={classes.secondSection}>
-          <ContactForm/>
+          <ContactForm />
         </div>
       </div>
     </>

@@ -66,15 +66,15 @@ const AboutUs = () => {
               The perfect place to enjoy your coffee
             </h4>
             <ul className={classes.ul}>
-              <li className={classes.li}>
+              <li className={classes.li} key= '1'>
                 Consectetur adipisicing elit, sed do eiusmod tempor incididunt
                 ut labore et dolore magna aliqua. Ut enim ad minim veniam.
               </li>
-              <li className={classes.li}>
+              <li className={classes.li} key= '2'>
                 Consectetur adipisicing elit, sed do eiusmod tempor incididunt
                 ut labore et dolore magna aliqua. Ut enim ad minim veniam.
               </li>
-              <li className={classes.li}>
+              <li className={classes.li} key= '3'>
                 Consectetur adipisicing elit, sed do eiusmod tempor incididunt
                 ut labore et dolore magna aliqua. Ut enim ad minim veniam.
               </li>

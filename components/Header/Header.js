@@ -1,10 +1,8 @@
-
 import React, { useEffect, useState } from "react";
 import classes from "./Header.module.css";
 import Link from "next/link";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import { Menu, MenuItem } from "@mui/material";
-import { useRouter } from "next/router";
 import { usePathname } from 'next/navigation';
 
 
