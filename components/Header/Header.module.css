@@ -6,7 +6,7 @@
   background-color: aquamarine;
   background-color: var(--main-color);
   background: linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.3) 50%);
-
+  z-index: 30;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,8 +14,6 @@
 }
 .scrolled {
   background-color: black;
-  /* background-color: var(--main-color); */
-  /* background: linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.3) 50%); */
 
 }
 .header .one {

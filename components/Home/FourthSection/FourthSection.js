@@ -32,11 +32,7 @@ const FourthSection = (props) => {
           slidesPerView={3}
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           autoplay={true}
-          // navigation
           pagination={{ clickable: true }}
-          // scrollbar={{ draggable: true }}
-          // onSlideChange={() => console.log("slide change")}
-          // onSwiper={(swiper) => console.log(swiper)}
         >
           {team?.map((person, idx) => {
             return (
