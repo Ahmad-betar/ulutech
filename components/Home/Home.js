@@ -14,7 +14,7 @@ const Home = (props) => {
       <FristSection />
       <SecondSection />
       <ThirdSection />
-      // <FourthSection team = {props.team} />
+      
     </>
   );
 };
