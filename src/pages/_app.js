@@ -7,7 +7,7 @@ import Loading from "../../components/Loading/Loading";
 
 
 export default function App({ Component, pageProps }) {
-  
+  /*
   const router = useRouter();
 
   const [loading, setLoading] = useState(false);
@@ -33,8 +33,7 @@ export default function App({ Component, pageProps }) {
     )
   }
 
-
-  
+  */
   return (
     <>
       <Header />
