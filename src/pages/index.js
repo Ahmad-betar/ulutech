@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 
 export const getStaticProps  = async () => {
-  const team = [];
+/*  const team = [];
   try {
     const res = await fetch(
       "https://ulutech-935c3-default-rtdb.firebaseio.com/team.json"
@@ -20,19 +20,19 @@ export const getStaticProps  = async () => {
       });
     }
   } catch (error) {}
-
   return { props: { team } };
+*/
 };
 
 
 
-export default function Home({ team }) {
+export default function Home() {
 
   
 
   return (
     <>
-      <Homee team={team} />
+      <Homee  />
     </>
   );
 }
